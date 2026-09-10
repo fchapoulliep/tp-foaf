@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<foaf:Person rdf:about="https://fchapoulliep.github.io/tp-foaf/#me">
+		<foaf:name>Florian Chapoullié-Pino</foaf:name>
+		<foaf:nick>fchapoulliep</foaf:nick>
+		<foaf:mbox rdf:resource="mailto:florianchapino@gmail.com" />
+		<foaf:title>Etudiant en informatique</foaf:title>
+		<foaf:homepage rdf:resource="https://fchapoulliep.github.io/tp-foaf/" />
+		<foaf:weblog rdf:resource="https://fchapoulliep.github.io/tp-foaf/" />
+		<foaf:interest rdf:resource="https://www.w3.org/RDF/" />
+		<foaf:interest rdf:resource="https://www.w3.org/2001/sw/" />
+		<dc:description>Profil personnel de fchapoulliep, etudiant en informatique.</dc:description>
+	</foaf:Person>
+</rdf:RDF>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Page personnelle de fchapoulliep." />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="alternate"
+      type="application/rdf+xml"
+      title="Profil FOAF"
+      href="foaf.rdf"
+    />
+    <link rel="meta" type="application/rdf+xml" href="foaf.rdf" />
+    <title>Florian Chapoullié-Pino — page personnelle</title>
+  </head>
+  <body>
+    <main>
+      <section
+        class="profile"
+        aria-labelledby="page-title"
+        about="https://fchapoulliep.github.io/tp-foaf/#me"
+        typeof="foaf:Person"
+        prefix="foaf: http://xmlns.com/foaf/0.1/"
+      >
+        <p class="eyebrow">Page personnelle · 2026</p>
+        <h1 id="page-title" property="foaf:name">
+          Florian Chapoullié-Pino<span>.</span>
+        </h1>
+        <p class="bio">
+          Étudiant en informatique, intéressé par le web sémantique et les
+          données.
+        </p>
+        <div class="links" aria-label="Liens personnels">
+          <a href="https://github.com/fchapoulliep" rel="foaf:homepage"
+            >GitHub <span aria-hidden="true">↗</span></a
+          >
+          <a href="mailto:florianchapino@gmail.com" rel="foaf:mbox"
+            >florianchapino@gmail.com <span aria-hidden="true">↗</span></a
+          >
+          <a href="foaf.rdf" type="application/rdf+xml"
+            >Profil FOAF <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
